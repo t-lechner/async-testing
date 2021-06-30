@@ -1,0 +1,29 @@
+{
+  "name": "eslint-plugin-eslint-training",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "files": [
+    "dist/**"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --no-splitting --minify",
+    "build:w": "npm run build -- --watch",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Thomas Lechner",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/eslint": "^7.2.13",
+    "@types/estree": "0.0.48",
+    "@types/jest": "^26.0.23",
+    "@types/node": "^15.12.5",
+    "eslint": "^7.29.0",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.3",
+    "ts-node": "^10.0.0",
+    "tsup": "^4.12.0",
+    "typescript": "^4.3.4"
+  }
+}
