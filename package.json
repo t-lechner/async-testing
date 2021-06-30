@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-async-testing",
+  "name": "@tlechner/eslint-plugin-async-testing",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
