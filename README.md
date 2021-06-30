@@ -3,8 +3,10 @@
 # getting started
 
 1) copy the folder to your repository, f.e. to the root directory
-2) `npm ln @tlechner/eslint-plugin-async-testing@file:./async-testing`
-    - make sure you adjust the directory if you did not use the root directory
+2) link or install the plugin (choose one / make sure you adjust the directory if you did not use the root directory)
+    - `npm ln @tlechner/eslint-plugin-async-testing@file:./async-testing`
+    - `npm install @tlechner/eslint-plugin-async-testing@file:./async-testing`
+    - `yarn add @tlechner/eslint-plugin-async-testing@file:./async-testing` 
 3) add the plugin to your eslint configuration
     - .eslintrc.json: 
 ```
