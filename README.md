@@ -8,14 +8,14 @@
 ```
 {
   ...
-  "plugins": ["@tlechner/async-tests"],
+  "plugins": ["@tlechner/async-testing"],
   ...
   "overrides": [
     ...
     {
       "files": ["*.spec.ts"],
       "rules": {
-        "@tlechner/async-tests/ensure-done-in-test-when-subscribing": [
+        "@tlechner/async-testing/ensure-done-in-test-when-subscribing": [
           "error"
         ]
       }
