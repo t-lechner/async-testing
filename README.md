@@ -15,7 +15,7 @@
     {
       "files": ["*.spec.ts"],
       "rules": {
-        "@tlechner/async-testing/ensure-done-in-test-when-subscribing": [
+        "@tlechner/async-testing/require-done-in-subscribe": [
           "error"
         ]
       }
