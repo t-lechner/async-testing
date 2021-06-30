@@ -1,7 +1,34 @@
-# custom eslint rules
+# getting started
+
+1) copy the folder to your repository, f.e. to the root directory
+2) `npm ln @tlechner/eslint-plugin-async-testing@file:./async-testing`
+    - make sure you adjust the directory if you did not use the root directory
+3) add the plugin to your eslint configuration
+    - .eslintrc.json: 
+```
+{
+  ...
+  "plugins": ["@tlechner/async-tests"],
+  ...
+  "overrides": [
+    ...
+    {
+      "files": ["*.spec.ts"],
+      "rules": {
+        "@tlechner/async-tests/ensure-done-in-test-when-subscribing": [
+          "error"
+        ]
+      }
+    }    
+    ...
+  ]
+}
+
+```
+
+
+
+## custom eslint rules tutorial
 
 based on: https://github.com/Quramy/eslint-plugin-tutorial/blob/main/package.json
 
-visitor: require-done-in-subscribe
-
-https://astexplorer.net/#/gist/1ff99fca3f85c2e7676ac041a88d7b53/179cf88e3a77c133741d9f96f0dc982b9f11ce4d
