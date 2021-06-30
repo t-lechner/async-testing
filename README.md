@@ -32,4 +32,4 @@
 
 based on: https://github.com/Quramy/eslint-plugin-tutorial/blob/main/package.json
 
-usefule tools: https://astexplorer.net/#/gist/1ff99fca3f85c2e7676ac041a88d7b53/179cf88e3a77c133741d9f96f0dc982b9f11ce4d
+usefule tool: https://astexplorer.net/#/gist/1ff99fca3f85c2e7676ac041a88d7b53/179cf88e3a77c133741d9f96f0dc982b9f11ce4d
